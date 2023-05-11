@@ -1,5 +1,5 @@
 # Self-Custody Best Practices Guide
-Taking custody of your Bitcoin and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
+Taking custody of your bitcoins and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
 
 Many Bitcoin holders do not practice minimal safety, which could result in loss of their Bitcoins. 
 
@@ -23,17 +23,25 @@ been compromised, you should transfer all your funds to a new wallet with a new 
 Pros and Cons of different procedures - Below listed are the different procedures you can follow in creating backups of your mnemonic with their respective pros and cons:
 
 ## 1. Different ways to store your mnemonic.
-a) Paper or Metal: Writing down your mnemonic on a piece of paper or etching it onto a metal surface are two of the most popular ways to store it offline. The choice to select one between the two 
+
+### a) Paper or Metal:
+
+Writing down your mnemonic on a piece of paper or etching it onto a metal surface are two of the most popular ways to store it offline. The choice to select one between the two 
   must be made depending on the balance in your desired level of security, and ease-of-use and accessibility. The pros and cons in using paper or metal are -
-• Security: Paper is more vulnerable to damage, theft, or loss, and can easily be destroyed by water, fire, or other environmental factors, compared to metal which is a sturdy and resilient material
+
+  • Security: Paper is more vulnerable to damage, theft, or loss, and can easily be destroyed by water, fire, or other environmental factors, compared to metal which is a sturdy and resilient material
   that can withstand harsh environmental conditions, making it a good option for long-term storage.
-• Ease-of-use and accesibility: Paper is an extremely simple way to store your mnemonic which is a good starting point for people new to self-custody because it is easy to write on, carry around if
+
+  • Ease-of-use and accesibility: Paper is an extremely simple way to store your mnemonic which is a good starting point for people new to self-custody because it is easy to write on, carry around if
   someone has to move geographically frequently, and has zero cost. Metal can induce process fatigue for someone new to self-custody, is costlier to buy and engrave words on, and and is bulkier to
   move around with, affecting accessibility. 
-• Privacy concerns: Your mnemonic should ideally be kept somewhere private and accessible only by you, but using a metal plate like the CoinKite SeedPlate to engrave your mnemonic gives you an added
+
+  • Privacy concerns: Your mnemonic should ideally be kept somewhere private and accessible only by you, but using a metal plate like the CoinKite SeedPlate to engrave your mnemonic gives you an added
   layer of privacy from onlookers and buys you time, compared to paper, which a sophisticated attacker might only need one glance to steal the mnemonic. 
 
-b) Location to keep the backup: The location where you keep the paper or metal storing the backup should be, besides being private, fire and water proof, resistant to damage by normal wear and tear,
+### b) Location to keep the backup:
+
+  The location where you keep the paper or metal storing the backup should be, besides being private, fire and water proof, resistant to damage by normal wear and tear,
   dirt etc. You should ideally keep the paper/metal in layers of storage - laminated, inside a fire-proof bag, in a safe etc. The location should also be such that it is not prone to natural disasters,
   government seizure, restricted access,privacy violations etc. Frequently visit the location and keep checking the state of the storage. 
 
@@ -72,8 +80,7 @@ c) Treasure map for children: Providing instructions or clues to your heirs can 
 The Bitcoin Network allows you to embed a timelock on a transaction, ie, you can send your money to an address such that it can only be spent from it after a certain specified amount of time has elapsed. 
 Moving funds to a timelocked address can protect your funds against physical attackers or the temptation to sell early, but it also requires careful and deliberate planning - to avoid needing to access the funds before the timelock expires.
 
-## 9. Multi-Sig Wallets.
-The Bitcoin Network allows you to secure your money such that it requires multiple keys to spend from that address - known as multi-signature transaction. Quite a few people have started using multi-sig functionality to secure their funds to protect themselves against loss or theft of one(or more)keys. 
+9. Multi-Sig Wallets. The Bitcoin Network allows you to secure your money such that it requires multiple keys to spend from that address - known as multi-signature transaction. Quite a few people have started using multi-sig functionality to secure their funds to protect themselves against loss or theft of one(or more)keys. 
 a) Benefits: Using a multi-sig wallet with multiple keys can provide protection against loss or theft of any single key, ie, removes a single point of failurr entirely because you can affored to lose one(or more) keys to loss or theft, but it also requires careful management and coordination of the keys to access your funds and make a transaction. 
 
 It also protects you from defective/compromised hardware wallet by distributing the risk across multiple devices. 

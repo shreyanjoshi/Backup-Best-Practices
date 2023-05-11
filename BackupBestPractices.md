@@ -1,5 +1,5 @@
 # Self-Custody Best Practices Guide
-    Taking custody of your Bitcoin and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
+Taking custody of your Bitcoin and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
 
 Many Bitcoin holders do not practice minimal safety, which could result in loss of their Bitcoins. 
 
@@ -22,7 +22,7 @@ been compromised, you should transfer all your funds to a new wallet with a new 
 
 Pros and Cons of different procedures - Below listed are the different procedures you can follow in creating backups of your mnemonic with their respective pros and cons:
 
-1. Different ways to store your mnemonic.
+## 1. Different ways to store your mnemonic.
 a) Paper or Metal: Writing down your mnemonic on a piece of paper or etching it onto a metal surface are two of the most popular ways to store it offline. The choice to select one between the two 
   must be made depending on the balance in your desired level of security, and ease-of-use and accessibility. The pros and cons in using paper or metal are -
 • Security: Paper is more vulnerable to damage, theft, or loss, and can easily be destroyed by water, fire, or other environmental factors, compared to metal which is a sturdy and resilient material
@@ -41,31 +41,39 @@ c) Using a cypher: Using a code or cypher to obfuscate your mnemonic can add an 
 
 d) Encrypting the mnemonic(Advanced): Encryption is a technique to encode/hide any message(your mnemonic in this case) which can only be decoded by a secret password. Encrypting your mnemonic with a strong password can add an extra layer of security against unauthorized access and allow you to create redundancy by making and uploading multiple encrypted copies to the internet, but if you lose the password, you will not be able to recover your funds. Encrypting the mnemonic by a password currently does not have a standardized workflow in any of the standard wallets and should be done only by someone with the technical proficiency to manage it.
 
-2. Geographically separated backup locations. Storing backups in multiple physical locations, such as different homes, safety deposit boxes, or bank vaults that are geographically distant can protect you from loss due to natural disasters or damage, because you can afford to lose one of the backups to them, but it can also make it harder to protect yourself against theft because you have to secure multiple locations. 
+## 2. Geographically separated backup locations. 
+Storing backups in multiple physical locations, such as different homes, safety deposit boxes, or bank vaults that are geographically distant can protect you from loss due to natural disasters or damage, because you can afford to lose one of the backups to them, but it can also make it harder to protect yourself against theft because you have to secure multiple locations. 
 It is important that you find a balance between the two, keep checking on the locations regularly, and do not keep any locations so distant from where you live that you induce process fatigue to check on them. 
 
-3. Secret Passphrase. A lot of wallets allow you to keep a secret passphrase which is an optional additional phrase used with your mnemonic to recover your wallet.
+## 3. Secret Passphrase.
+A lot of wallets allow you to keep a secret passphrase which is an optional additional phrase used with your mnemonic to recover your wallet.
 a) Added layer of security: Adding a secret passphrase to your mnemonic can provide an extra layer of security against unauthorized access, but it also requires additional backups for the passphrase and makes it harder to recover the funds if the passphrase is lost or forgotten.
 b) Duress Wallet: Using your mnemonic to create a wallet with a lower balance and a different wallet with the mnemonic+secret passphrase to secure your main savings can provide you with a decoy wallet in case an attacker physically restrains and coerces you or steals your mnemonic. 
 c) Useful in creating tree of wallets - Duress, Inheritance, Emergency funds, Recreation: Using passphrases to create different branches of wallets, each having a different purposes can help organize and protect your funds, but it also requires additional backups and management.
 
-4. Ring of trust (mnemonic with parent/trusted friend): Sharing your mnemonic with trusted family members or friends can provide a backup in case of loss or incapacitation, but it also requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
+## 4. Ring of trust (mnemonic with parent/trusted friend):
+Sharing your mnemonic with trusted family members or friends can provide a backup in case of loss or incapacitation, but it also requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
 
-5. Shamir Secret Sharing: Shamir Secret Sharing is the technique of splitting the mnemonic into multiple shares and distributing each share to geographically separate locations or with group of people you trust will never collude to steal from you. This can provide redundancy since there is no single point of failure and hence protection against loss or theft of any single share, but this will increase complexity in recovery and backups because you would need access to all the shares to access your funds, and you would need to create backups of each share seperately. 
+## 5. Shamir Secret Sharing:
+Shamir Secret Sharing is the technique of splitting the mnemonic into multiple shares and distributing each share to geographically separate locations or with group of people you trust will never collude to steal from you. This can provide redundancy since there is no single point of failure and hence protection against loss or theft of any single share, but this will increase complexity in recovery and backups because you would need access to all the shares to access your funds, and you would need to create backups of each share seperately. 
 This is a good technique to protect yourself from having a single point of failure but introduces complexity in recovery and backups, and requires you to trust the people to not collude.
 
-6. SeedXOR(Advanced): Using a technique called SeedXOR to use two mnemonics, each of which might or might not hold any funds, and doing XOR operation on them to form a single mnemonic that secures your money can provide redundancy since there is no single point of failure and hence protection against loss and theft of any one of the two mnemonics. Although, this will increase the complexity of recovery and backups because you would need access to the two mnemonics to access your funds, and you would need to back them up separately.
+## 6. SeedXOR(Advanced):
+Using a technique called SeedXOR to use two mnemonics, each of which might or might not hold any funds, and doing XOR operation on them to form a single mnemonic that secures your money can provide redundancy since there is no single point of failure and hence protection against loss and theft of any one of the two mnemonics. Although, this will increase the complexity of recovery and backups because you would need access to the two mnemonics to access your funds, and you would need to back them up separately.
 Also, SeedXOR currently does not have a standardized workflow in any of the standard wallets and should be performed only by someone with the technical proficiency to manage it. 
 
-7. Inheritance. One important consideration to keep in mind when securing your Bitcoins is figuring out a way your family members/loved ones have some way of accessing your funds in case you become incapacitated or die.
+## 7. Inheritance. 
+One important consideration to keep in mind when securing your Bitcoins is figuring out a way your family members/loved ones have some way of accessing your funds in case you become incapacitated or die.
 a) Regularly move funds to separate wallets for different beneficiaries with timelock: Moving funds to separate wallets with a timelock can help protect against theft or loss due to unexpected events, but it also requires regular maintenance and management.
 b) Trusted guardian: Appointing a trusted guardian to manage your funds in case of incapacitation or death can provide peace of mind, but it also requires you to trust them and can put your funds at risk if the wrong person gains access if they are irresponsible. 
 c) Treasure map for children: Providing instructions or clues to your heirs can help them access your funds in case of your death or incapacitation, but it also requires careful planning and management as you want it to be simple enough for them to understand but also secure so that they cannot steal from you before you intend to pass the money on.
 
-8. Timelocks. The Bitcoin Network allows you to embed a timelock on a transaction, ie, you can send your money to an address such that it can only be spent from it after a certain specified amount of time has elapsed. 
+## 8. Timelocks.
+The Bitcoin Network allows you to embed a timelock on a transaction, ie, you can send your money to an address such that it can only be spent from it after a certain specified amount of time has elapsed. 
 Moving funds to a timelocked address can protect your funds against physical attackers or the temptation to sell early, but it also requires careful and deliberate planning - to avoid needing to access the funds before the timelock expires.
 
-9. Multi-Sig Wallets. The Bitcoin Network allows you to secure your money such that it requires multiple keys to spend from that address - known as multi-signature transaction. Quite a few people have started using multi-sig functionality to secure their funds to protect themselves against loss or theft of one(or more)keys. 
+## 9. Multi-Sig Wallets.
+The Bitcoin Network allows you to secure your money such that it requires multiple keys to spend from that address - known as multi-signature transaction. Quite a few people have started using multi-sig functionality to secure their funds to protect themselves against loss or theft of one(or more)keys. 
 a) Benefits: Using a multi-sig wallet with multiple keys can provide protection against loss or theft of any single key, ie, removes a single point of failurr entirely because you can affored to lose one(or more) keys to loss or theft, but it also requires careful management and coordination of the keys to access your funds and make a transaction. 
 
 It also protects you from defective/compromised hardware wallet by distributing the risk across multiple devices. 

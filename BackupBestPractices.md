@@ -20,47 +20,53 @@ be so complex that it opens itself upto attacks or your own carelessness.
 It's essential to keep in mind that if any one of your backups is compromised, your funds can be stolen. Therefore, if you suspect that any of your backups, or the privacy of their location, have
 been compromised, you should transfer all your funds to a new wallet with a new mnemonic as soon as possible.
 
-Pros and Cons of different procedures - Below listed are the different procedures you can follow in creating backups of your mnemonic with their respective pros and cons:
+Step-by-step procedure to backup your mnemonic with pros and cons of different options: 
 
-## 1. Different ways to store your mnemonic.
+## Step 1. Storing your mnemonic.
 
-### a) Paper or Metal:
+### a) Medium(Paper or Metal):
+Writing your mnemonic on paper or etching it onto a metal surface are two popular ways to store it offline. The choice between the two depends on your desired level of security, ease-of-use, and accessibility.
+ 
+  • Security: Paper is more vulnerable to damage, theft, or loss and can easily be destroyed by water, fire, or other environmental factors. Metal is sturdier and more resilient, making it a better option for long-term storage
+  
+  • Ease-of-use and accesibility: Paper is a simple and cost-effective way to store your mnemonic, a good starting point for those new to self-custody.
+  Metal, on the other hand, can be more cumbersome to work with and may require additional investment to engrave the words. 
 
-Writing down your mnemonic on a piece of paper or etching it onto a metal surface are two of the most popular ways to store it offline. The choice to select one between the two 
-  must be made depending on the balance in your desired level of security, and ease-of-use and accessibility. The pros and cons in using paper or metal are -
+  • Privacy concerns: To ensure privacy, it is important to keep your mnemonic somewhere private and accessible only by you.
+  Using a metal plate like the CoinKite SeedPlate can add an extra layer of privacy. 
+  
+### b) Location:
+The location where you keep your paper or metal backup should be private, fireproof, waterproof, and resistant to damage from normal wear and tear.
+You should ideally keep your backup in multiple layers of storage, such as a laminated layer, inside a fireproof bag, in a safe, etc.
+The location should also be secure from natural disasters, government seizure, restricted access, and privacy violations.
+Frequently visit the location and keep checking the state of the storage. 
 
-  • Security: Paper is more vulnerable to damage, theft, or loss, and can easily be destroyed by water, fire, or other environmental factors, compared to metal which is a sturdy and resilient material
-  that can withstand harsh environmental conditions, making it a good option for long-term storage.
 
-  • Ease-of-use and accesibility: Paper is an extremely simple way to store your mnemonic which is a good starting point for people new to self-custody because it is easy to write on, carry around if
-  someone has to move geographically frequently, and has zero cost. Metal can induce process fatigue for someone new to self-custody, is costlier to buy and engrave words on, and and is bulkier to
-  move around with, affecting accessibility. 
+### c) (Optional)Creative ways to secure mnemonic:
+#### Using a cypher-
+Using a code or cipher to obfuscate your mnemonic can add an additional layer of security, such as highlighting the words in your favorite books and noting only the page numbers.
+However, it can be difficult to remember the code or decode the mnemonic when you need it.
 
-  • Privacy concerns: Your mnemonic should ideally be kept somewhere private and accessible only by you, but using a metal plate like the CoinKite SeedPlate to engrave your mnemonic gives you an added
-  layer of privacy from onlookers and buys you time, compared to paper, which a sophisticated attacker might only need one glance to steal the mnemonic. 
+#### Encrypting the mnemonic-
+Encryption is a technique that can add an extra layer of security by encoding your mnemonic with a strong password.
+This allows you to create redundancy by making and uploading multiple encrypted copies to the internet.
 
-### b) Location to keep the backup:
 
-  The location where you keep the paper or metal storing the backup should be, besides being private, fire and water proof, resistant to damage by normal wear and tear,
-  dirt etc. You should ideally keep the paper/metal in layers of storage - laminated, inside a fire-proof bag, in a safe etc. The location should also be such that it is not prone to natural disasters,
-  government seizure, restricted access,privacy violations etc. Frequently visit the location and keep checking the state of the storage. 
+## Step 2. Create another backup and store them in geographically separated locations. 
+Create another backup and store it in a different physical location, such as a different home, safety deposit box, or bank vault. 
+Such a place will protect you from loss due to natural disasters or damage to one backup.
+However, it can also make it harder to protect yourself against theft because you have to secure multiple locations. 
+It is important that you find a balance between the two, keep checking on the locations regularly, so don't keep it so far that you cannot visit frequently. 
 
-c) Using a cypher: Using a code or cypher to obfuscate your mnemonic can add an additional layer of security, e.g., highlighting the words in your favourite books and noting down only the page numbers, but it can also be difficult to remember/recover the code or decode the mnemonic when you need it so this technique should be pursued only if you feel comfortable with it or that it is necessary given your life situation.
-
-d) Encrypting the mnemonic(Advanced): Encryption is a technique to encode/hide any message(your mnemonic in this case) which can only be decoded by a secret password. Encrypting your mnemonic with a strong password can add an extra layer of security against unauthorized access and allow you to create redundancy by making and uploading multiple encrypted copies to the internet, but if you lose the password, you will not be able to recover your funds. Encrypting the mnemonic by a password currently does not have a standardized workflow in any of the standard wallets and should be done only by someone with the technical proficiency to manage it.
-
-## 2. Geographically separated backup locations. 
-Storing backups in multiple physical locations, such as different homes, safety deposit boxes, or bank vaults that are geographically distant can protect you from loss due to natural disasters or damage, because you can afford to lose one of the backups to them, but it can also make it harder to protect yourself against theft because you have to secure multiple locations. 
-It is important that you find a balance between the two, keep checking on the locations regularly, and do not keep any locations so distant from where you live that you induce process fatigue to check on them. 
-
-## 3. Secret Passphrase.
-A lot of wallets allow you to keep a secret passphrase which is an optional additional phrase used with your mnemonic to recover your wallet.
+## Step 3. Secret Passphrase.
+You can keep a secret passphrase which is an optional additional phrase used with your mnemonic to recover your wallet.
 a) Added layer of security: Adding a secret passphrase to your mnemonic can provide an extra layer of security against unauthorized access, but it also requires additional backups for the passphrase and makes it harder to recover the funds if the passphrase is lost or forgotten.
 b) Duress Wallet: Using your mnemonic to create a wallet with a lower balance and a different wallet with the mnemonic+secret passphrase to secure your main savings can provide you with a decoy wallet in case an attacker physically restrains and coerces you or steals your mnemonic. 
 c) Useful in creating tree of wallets - Duress, Inheritance, Emergency funds, Recreation: Using passphrases to create different branches of wallets, each having a different purposes can help organize and protect your funds, but it also requires additional backups and management.
 
-## 4. Ring of trust (mnemonic with parent/trusted friend):
-Sharing your mnemonic with trusted family members or friends can provide a backup in case of loss or incapacitation, but it also requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
+## Step 4. Ring of trust (mnemonic with parent/trusted friend):
+You can share your mnemonic with trusted family members or friends to provide a backup in case of loss or incapacitation.
+However, it requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
 
 ## 5. Shamir Secret Sharing:
 Shamir Secret Sharing is the technique of splitting the mnemonic into multiple shares and distributing each share to geographically separate locations or with group of people you trust will never collude to steal from you. This can provide redundancy since there is no single point of failure and hence protection against loss or theft of any single share, but this will increase complexity in recovery and backups because you would need access to all the shares to access your funds, and you would need to create backups of each share seperately. 

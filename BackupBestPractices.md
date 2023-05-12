@@ -1,9 +1,7 @@
 # Self-Custody Best Practices Guide
-<<<<<<< HEAD
 Taking custody of your bitcoins and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
 =======
 Taking custody of your Bitcoin and creating a procedure for secure and simple recovery in case of loss, damage, theft etc of device. 
->>>>>>> ea1bd51aa09e966477cd9a0272ec45f183e9211b
 
 Many Bitcoin holders do not practice minimal safety, which could result in loss of their Bitcoins. 
 
@@ -24,7 +22,6 @@ be so complex that it opens itself upto attacks or your own carelessness.
 It's essential to keep in mind that if any one of your backups is compromised, your funds can be stolen. Therefore, if you suspect that any of your backups, or the privacy of their location, have
 been compromised, you should transfer all your funds to a new wallet with a new mnemonic as soon as possible.
 
-<<<<<<< HEAD
 Step-by-step procedure to backup your mnemonic with pros and cons of different options: 
 
 ## Step 1. Storing your mnemonic.

@@ -90,19 +90,16 @@ It is important that you find a balance between the two, keep checking on the lo
 
 ## 3. Secret Passphrase.
 A lot of wallets allow you to keep a secret passphrase which is an optional additional phrase used with your mnemonic to recover your wallet.
->>>>>>> ea1bd51aa09e966477cd9a0272ec45f183e9211b
 a) Added layer of security: Adding a secret passphrase to your mnemonic can provide an extra layer of security against unauthorized access, but it also requires additional backups for the passphrase and makes it harder to recover the funds if the passphrase is lost or forgotten.
 b) Duress Wallet: Using your mnemonic to create a wallet with a lower balance and a different wallet with the mnemonic+secret passphrase to secure your main savings can provide you with a decoy wallet in case an attacker physically restrains and coerces you or steals your mnemonic. 
 c) Useful in creating tree of wallets - Duress, Inheritance, Emergency funds, Recreation: Using passphrases to create different branches of wallets, each having a different purposes can help organize and protect your funds, but it also requires additional backups and management.
 
-<<<<<<< HEAD
 ## Step 4. Ring of trust (mnemonic with parent/trusted friend):
 You can share your mnemonic with trusted family members or friends to provide a backup in case of loss or incapacitation.
 However, it requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
 =======
 ## 4. Ring of trust (mnemonic with parent/trusted friend):
 Sharing your mnemonic with trusted family members or friends can provide a backup in case of loss or incapacitation, but it also requires you to trust them, and can also put your funds at risk if the wrong people gain access due to their irresponsibility. 
->>>>>>> ea1bd51aa09e966477cd9a0272ec45f183e9211b
 
 ## 5. Shamir Secret Sharing:
 Shamir Secret Sharing is the technique of splitting the mnemonic into multiple shares and distributing each share to geographically separate locations or with group of people you trust will never collude to steal from you. This can provide redundancy since there is no single point of failure and hence protection against loss or theft of any single share, but this will increase complexity in recovery and backups because you would need access to all the shares to access your funds, and you would need to create backups of each share seperately. 
@@ -122,7 +119,6 @@ c) Treasure map for children: Providing instructions or clues to your heirs can 
 The Bitcoin Network allows you to embed a timelock on a transaction, ie, you can send your money to an address such that it can only be spent from it after a certain specified amount of time has elapsed. 
 Moving funds to a timelocked address can protect your funds against physical attackers or the temptation to sell early, but it also requires careful and deliberate planning - to avoid needing to access the funds before the timelock expires.
 
-<<<<<<< HEAD
 9. Multi-Sig Wallets. The Bitcoin Network allows you to secure your money such that it requires multiple keys to spend from that address - known as multi-signature transaction. Quite a few people have started using multi-sig functionality to secure their funds to protect themselves against loss or theft of one(or more)keys. 
 =======
 ## 9. Multi-Sig Wallets.
